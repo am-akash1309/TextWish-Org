@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="Sample 1(CSS).css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body id="content" class="container">
+        <div>
+            <form class="form">
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <div class="center card">
+                            <div class="center card-title">
+                                <h3>TEXTWISH</h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col s1">
+                                        <i class="material-icons">account_circle</i>
+                                    </div>
+                                    <div class="col s11">
+                                        <input id="username" type="text" placeholder="Phone number, username or email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s1">
+                                        <i class="material-icons">lock</i>
+                                    </div>
+                                    <div class="col s11">
+                                        <input id="password" type="password" placeholder="Password" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <button class="btn n1" onclick="myFunction()">Log In</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row">
+                                    <a href="https://www.facebook.com/" target="blank">
+                                    <div class="col s1 offset-s3">
+                                        <i class="material-icons">face</i>
+                                    </div>
+                                    <div class="col s4">
+                                        Log In with Facebook
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <a class="fptext" href="Forget pasword.html">Forget Password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="center card-content">
+                                Don't have an account? <a href="Create New Account.html">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("username").value;
+        console.log(x)
+        var y = document.getElementById("password").value;
+        console.log(y)
+        }
+    </script>
+    </body>
+</html>

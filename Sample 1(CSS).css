@@ -1,0 +1,53 @@
+#content{
+    background-image: url("bg4.png");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: overlay;
+}
+.center.card-title{
+    font-family: Lucida Handwriting;
+    font-weight: bolder;
+}
+i.material-icons{
+    line-height: 2.25 !important;
+}
+.card-title{
+    padding-top: 40px;
+    font-weight: 400 !important;
+}
+.btn.n1{
+    background-color: slateblue !important;
+    width: 300px;
+}
+.fptext{
+    font-family: Georgia !important;
+    color: blue !important;
+    text-transform: none !important;
+}
+i.material-icons.unlockicon{
+    font-size: 60px;
+}
+#fpcnatextchange{
+    font-family: Georgia !important;
+    color: cornflowerblue !important;
+    text-transform: none !important;
+}
+#termsnconditions{
+    font-size: small !important;
+}
+#content1{
+    background-image: url("bg1.png");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: overlay;
+}
+#content2{
+    background-image: url("bg7.png");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: overlay;
+}
+.cna{
+    font-family: Monaco !important;
+    font-size: x-large !important;
+}
+.makebold{
+    font-weight: bold;
+}

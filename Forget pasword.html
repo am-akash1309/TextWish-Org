@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>
+            Reset Password
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="Sample 1(CSS).css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body id="content1" class="container">
+        <div>
+            <form class="form">
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <div class="center card">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <i class="material-icons unlockicon">lock_open</i>
+                                    </div>
+                                    <div class="col s12">
+                                        <h5>Trouble Logging In?</h5>
+                                    </div>
+                                    <div class="col s12">
+                                        Enter your email or phone number and we'll send you a link to get back into your account.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <input type="text" id="username" placeholder="Phone number or email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <button class="btn n1" onclick="myFunction()">Send OPT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row">
+                                    <a href="Create New Account.html">
+                                        <div class="col s12" id="fpcnatextchange">
+                                            Create New Account
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="center card-content">
+                                <a href="Login.html" id="fpcnatextchange">Back to Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("username").value;
+        console.log(x)
+        }
+    </script>
+    </body>
+</html>
